@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float runSpeed;
-    public float jumpSpeed;
+    public float runSpeed=5.0f;
+    public float jumpSpeed=2.0f;
     private Rigidbody2D myRigidbody;
     private BoxCollider2D myFeet;
     private bool isGround;
